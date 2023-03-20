@@ -69,6 +69,10 @@
       border: none;
     }
   }
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
   .background {
     width: 89%;
@@ -121,6 +125,8 @@
 
       .content-item {
         .content-item_title {
+          font-weight: bold;
+          font-size: 24px;
         }
 
         .content-item_box {
