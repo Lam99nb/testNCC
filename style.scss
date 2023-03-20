@@ -133,6 +133,9 @@
           .content-item_img {
             float: left;
 
+            @include tablet {
+              float: none;
+            }
             img {
               height: 138px;
             }

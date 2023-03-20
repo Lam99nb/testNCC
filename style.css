@@ -173,6 +173,12 @@
   float: left;
 }
 
+@media (max-width: 960px) {
+  .container .background .content .content-item .content-item_box .content-item_img {
+    float: none;
+  }
+}
+
 .container .background .content .content-item .content-item_box .content-item_img img {
   height: 138px;
 }
